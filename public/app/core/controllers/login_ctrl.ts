@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import coreModule from '../core_module';
 import config from 'app/core/config';
-
+ 	
 export class LoginCtrl {
   /** @ngInject */
   constructor($scope, backendSrv, contextSrv, $location) {
